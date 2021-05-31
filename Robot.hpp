@@ -21,6 +21,7 @@ class Robot {
         virtual void jalan() = 0;
 };
 
+//constructor robot
 Robot::Robot(string name, int jml_kaki, bool status)
 {
     this->name = name;
@@ -28,6 +29,7 @@ Robot::Robot(string name, int jml_kaki, bool status)
     this-> status = status;
 }
 
+//dto Robot
 Robot::~Robot()
 {
 }

@@ -14,8 +14,8 @@ int main(int argc, char const *argv[])
     robot.padamkanApi(); // mengeluarkan pesan error
     robot.ambilBoneka(); // mengeluarkan pesan error
 
-    // bonus
-    // Boneka teddyBear;
-    // robot.ambilBoneka(teddyBear);
+    //bonus
+    Boneka teddyBear;
+    robot.ambilBoneka(teddyBear);
     return 0;
 }
