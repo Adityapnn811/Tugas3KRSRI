@@ -21,7 +21,12 @@ class RobotKRSRI : public Robot{
             bool status = getStatus();
             string name = getName();
             string doll = boneka.getDoll();
-            cout << "Robot " << name << " sedang mengambil " << doll << endl;
+            if (status == true){
+                cout << "Robot " << name << " sedang mengambil " << doll << endl;
+            }
+            else{
+                cout << "Robot belum menyala!" << endl;
+            }
             
         }
 };

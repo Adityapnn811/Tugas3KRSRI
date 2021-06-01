@@ -16,6 +16,7 @@ int main(int argc, char const *argv[])
 
     //bonus
     Boneka teddyBear;
+    robot.nyala();
     robot.ambilBoneka(teddyBear);
     return 0;
 }
